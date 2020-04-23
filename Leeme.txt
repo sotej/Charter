@@ -1,0 +1,23 @@
+Check you can go to the following webpages
+
+https://chromedriver.storage.googleapis.com/
+https://selenium-release.storage.googleapis.com/
+
+If you are behind a proxy, then you should use the following flags:
+
+to update
+webdriver-manager update --ignore_ssl
+
+webdriver-manager update --proxy=http://*myCompanyProxy*/ --ignore_ssl
+
+to start
+webdriver-manager start --ignore_ssl
+
+or
+
+webdriver-manager start --proxy
+
+to check status
+webdriver-manager status
+
+if nothing works to update the drivers then download them manually and put them in the correct folder

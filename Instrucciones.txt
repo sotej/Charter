@@ -1,0 +1,13 @@
+
+Open Command Prompt and run all
+SET PATH="C:\Users\p2858616\Downloads\node;%PATH%"
+SETX PATH "C:\Users\p2858616\Downloads\node;%PATH%"
+npm i -g protractor jasmine-reporters jasmine-spec-reporter protractor-beautiful-reporter protractor-jasmine2-screenshot-reporter eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
+npx install-peerdeps --dev eslint-config-airbnb-base
+npm init -y
+webdriver-manager update
+webdriver-manager start
+
+
+ESLINT configuration
+eslint --init
